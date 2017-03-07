@@ -1,0 +1,398 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #3e364e;
+    font-size: 16px;
+    font-family: Microsoft Yahei;
+    -webkit-user-select: none;
+}
+
+
+.loadingText {
+    position: absolute;
+    top: 500px;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -60px;
+    width: 120px;
+    color: #FFFF12;
+    font-size: 28px;
+    text-align: center;
+
+}
+.music {
+    position: absolute;
+    right: 3%;
+    /*bottom: 3%;*/
+    z-index: 16;
+    width: 10.625%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.swiper-slide {
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.wxshare {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.alertDiv {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    background-color: rgb(100, 100, 100);
+    color: #FFFFFF;
+    border-radius: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+    left: 20%;
+    top: 30%;
+    text-align: center;
+}
+
+.slideElement {
+    position: absolute;
+}
+.p1-bg{
+    /*background-size:20% 20%;*/
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.arraw {
+    position: absolute;
+    bottom: 30%;
+    left: 44%;
+    width: 10%;
+
+}
+
+.p1-1 {
+    top: 51%;
+    left: 20%;
+    z-index: 10;
+    /*font-size: 30px;*/
+    /*color: #e60021;*/
+    font-weight: bold;
+    text-align: center;
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    width: 60%;
+    height: 15%;
+}
+.p1-haianchen{
+    position: absolute;
+    bottom: 8%;
+    right: 4%;
+    width: 90%;
+    height: 20%;
+}
+
+/*page2*/
+.p2-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+.p2-tit {
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    /*height: 50%;*/
+    z-index: 10;
+    /*font-size: 30px;*/
+    /*color: #e60021;*/
+    /*font-weight: bold;*/
+    text-align: center;
+
+}
+.p2-top{
+    width: 40%;
+    top: 4%;
+}
+.p2-arrow{
+    position: absolute;
+    top: 64%;
+    left:46%;
+    width: 10%;
+    height: 5%;
+}
+/*page3*/
+.p3-bg {
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.p3-text{
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    width: 75%;
+    height: 25%;
+    z-index: 10;
+    /*font-size: 30px;*/
+    /*color: #e60021;*/
+    /*font-weight: bold;*/
+    text-align: center;
+}
+.p3-tit{
+    top: 50%;
+    left: 25%;
+    width: 75%;
+    height: 18%;
+    z-index: 10;
+    /*font-size: 30px;*/
+    /*color: #e60021;*/
+    /*font-weight: bold;*/
+    text-align: center;
+}
+.p3-arrow{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    width: 15%;
+    height: 10%;
+}
+/*page4*/
+.p4-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.p4-top{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 11%;
+    left: 0;
+}
+.p4-tit{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 55%;
+    left: 0;
+}
+.p4-arrow{
+    position: absolute;
+    bottom: 8%;
+    left:46%;
+    width: 10%;
+    height: 5%;
+}
+
+/*page5*/
+.p5-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.p5-top{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 11%;
+    left: 0;
+}
+.p5-tit{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 55%;
+    left: 0;
+}
+.p5-arrow{
+    position: absolute;
+    bottom: 8%;
+    left:46%;
+    width: 10%;
+    height: 5%;
+}
+
+
+
+/*page6*/
+
+.p6-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.p6-arrow {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 10%;
+    height: 5%;
+}
+.p6-center{
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 45%;
+    left: 0;
+    /*font-size: 30px;*/
+    /*color: #e60021;*/
+    /*font-weight: bold;*/
+    text-align: center;
+}
+/*page7*/
+.p7-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.p7-top{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 0%;
+    left: 0;
+}
+.p7-tit{
+    position: absolute;
+    width: 100%;
+    height: 41%;
+    top: 60%;
+    left: 0;
+}
+.p7-arrow{
+    position: absolute;
+    bottom: 46%;
+    left:46%;
+    width: 10%;
+    height: 5%;
+}
+/*page8*/
+.p8-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.p8-top{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 0%;
+    left: 0;
+}
+.p8-tit{
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top: 65%;
+    left: 0;
+}
+.p8-arrow{
+    position: absolute;
+    bottom: 46%;
+    left:46%;
+    width: 10%;
+    height: 5%;
+}
+/*page9*/
+.w{
+    margin: auto;
+
+}
+.p9-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.p9-top{
+    position: absolute;
+    width: 100%;
+    height: 38%;
+    top: 0%;
+    left: 0;
+}
+.p9-tit{
+    position: absolute;
+    width: 100%;
+    height: 62%;
+    top: 40%;
+    left: 0;
+}
+.p9-arrow{
+    position: absolute;
+    bottom: 12%;
+    right: 8%;
+    width: 12%;
+    height: 6%;
+}
+/*page9*/
+.w{
+    margin: auto;
+
+}
+.p10-bg{
+    background-position: top;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+}
+.p10-top{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0%;
+    left: 0;
+}
+.p10-tit{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 30%;
+    left: 0;
+}
+
+.show {
+    display: block;
+}
+
+#car_audio {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+
